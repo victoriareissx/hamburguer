@@ -36,3 +36,7 @@ Pedido.init({
     paranoid : true
 }
 )
+public function avaliacao()
+{
+    return $this->hasOne(Avaliacao::class);
+}

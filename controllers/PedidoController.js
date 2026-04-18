@@ -26,3 +26,4 @@ const PedidoController = {
 };
 
 export default PedidoController;
+Pedido::with(['entrega', 'avaliacao'])
